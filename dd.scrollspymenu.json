@@ -1,0 +1,25 @@
+{
+  "name": "dd.scrollspymenu",
+  "title": "DD ScrollSpy Menu",
+  "description": "DD ScrollSpy Menu lets you define a menu whose items are automatically highlighted based on the portion of the page the user is currently viewing.",
+  "keywords": ["scrollspy", "menu", "tabs", "bookmark", "effect", "ui"],
+  "version": "1.0.2",
+  "author": {
+    "name": "Dynamic Drive",
+    "email" : "ddrivehelp@gmail.com",
+		"url": "http://www.dynamicdrive.com"
+  },
+  "licenses": [
+    {
+      "type": "Freeware",
+      "url": "http://www.dynamicdrive.com/notice.htm"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
+  "homepage": "http://www.dynamicdrive.com/dynamicindex1/ddscrollspymenu.htm",
+  "docs": "http://www.dynamicdrive.com/dynamicindex1/ddscrollspymenu.htm",
+  "demo": "http://www.dynamicdrive.com/dynamicindex1/ddscrollspymenu.htm",
+  "download": "http://www.dynamicdrive.com/dynamicindex1/ddscrollspymenu.htm"
+}
