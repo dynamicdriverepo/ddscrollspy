@@ -3,7 +3,7 @@
   "title": "DD ScrollSpy Menu",
   "description": "DD ScrollSpy Menu lets you define a menu whose items are automatically highlighted based on the portion of the page the user is currently viewing.",
   "keywords": ["scrollspy", "menu", "tabs", "bookmark", "effect", "ui"],
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Dynamic Drive",
     "email" : "ddrivehelp@gmail.com",
