@@ -1,5 +1,5 @@
 {
-  "name": "dd.scrollspymenu",
+  "name": "ddscrollspy",
   "title": "DD ScrollSpy Menu",
   "description": "DD ScrollSpy Menu lets you define a menu whose items are automatically highlighted based on the portion of the page the user is currently viewing.",
   "keywords": ["scrollspy", "menu", "tabs", "bookmark", "effect", "ui"],
