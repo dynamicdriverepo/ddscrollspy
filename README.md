@@ -1,6 +1,6 @@
 # DD ScrollSpy Menu #
 
-*Description:* For long pages with lots of content, keeping the user oriented and knowing where within the page he/she is at all times can be challenging. DD ScrollSpy Menu solves this problem, by letting you create a menu whose menu items are automatically highlighted based on the portion of the page the user is currently viewing. As the user scrolls the page, the menu item that points to that section is highlighted (via the injection of a desired CSS class to style it). The script also works on scrollable DIVs within the page to spy on their scroll positions instead. DD ScrollSpy "spies" on the visitor's position on the page, but for their benefit (and in turn yours)!
+*Description:* For long pages with lots of content, keeping the user oriented and knowing where within the page he/she is at all times can be challenging. DD ScrollSpy Menu solves this problem, by letting you create a menu whose menu items are automatically highlighted based on the portion of the page the user is currently viewing. As the user scrolls the page, the menu item that points to that section is highlighted (via the injection of a desired CSS class to style it). The script also works on scrollable DIVs within the page to spy on their scroll positions instead. Starting in v1.2, you can now also enable a progress bar to be shown inside each spymenu's menu item to show a progress of how much the user has scrolled within the currently viewed section. DD ScrollSpy "spies" on the visitor's position on the page, but for their benefit (and in turn yours)!
 
 ## Directions ##
 
@@ -20,7 +20,7 @@
 	
 	/*
 	* DD ScrollSpy Menu Script (c) Dynamic Drive (www.dynamicdrive.com)
-	* Last updated: Dec 29th, 12'
+	* Last updated: Aug 1st, 14'
 	* Visit http://www.dynamicdrive.com/ for this script and 100s more.
 	*/
 	
@@ -35,6 +35,7 @@
 	
 		$('#verticalspymenu').ddscrollSpy({ // initialize 2nd demo
 			spytarget: document.getElementById('contentcontainer'),
+			enableprogress: 'progress',
 			scrollduration: 300 // <-- no comma after last option!
 		})
 	})
